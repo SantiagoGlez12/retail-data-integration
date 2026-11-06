@@ -1,0 +1,257 @@
+{
+  "status": "work in progress",
+  "files": [
+    {
+      "source_path": "ea2/SQL/01_crear_base.sql",
+      "path": "stages/02-sql/SQL/01_crear_base.sql",
+      "source_git_blob_sha": "495d41c67b5d5ebf4e417e88622a4a0304768845",
+      "published_git_blob_sha": "495d41c67b5d5ebf4e417e88622a4a0304768845",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/02_crear_tablas.sql",
+      "path": "stages/02-sql/SQL/02_crear_tablas.sql",
+      "source_git_blob_sha": "8b2beb7f3ae971338d95a18c3e42837269becfe4",
+      "published_git_blob_sha": "8b2beb7f3ae971338d95a18c3e42837269becfe4",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/03_importar_csv.sql",
+      "path": "stages/02-sql/SQL/03_importar_csv.sql",
+      "source_git_blob_sha": "b9704b684e8d8f5d1391ab7f5b5d163c11e9e5f5",
+      "published_git_blob_sha": "b9704b684e8d8f5d1391ab7f5b5d163c11e9e5f5",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/04_verificar_datos.sql",
+      "path": "stages/02-sql/SQL/04_verificar_datos.sql",
+      "source_git_blob_sha": "f39210ccbbe77e99de95600410b7be1f63aebdb5",
+      "published_git_blob_sha": "f39210ccbbe77e99de95600410b7be1f63aebdb5",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/05_consultas_join.sql",
+      "path": "stages/02-sql/SQL/05_consultas_join.sql",
+      "source_git_blob_sha": "99c146f4e5f19bc1b4c315a10214df976c503349",
+      "published_git_blob_sha": "99c146f4e5f19bc1b4c315a10214df976c503349",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/06_crear_FACT_SALES.sql",
+      "path": "stages/02-sql/SQL/06_crear_FACT_SALES.sql",
+      "source_git_blob_sha": "41bab1bd84baa9a45c6de3d17972c7241cf44bd6",
+      "published_git_blob_sha": "41bab1bd84baa9a45c6de3d17972c7241cf44bd6",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/07_importar_FACT_SALES.sql",
+      "path": "stages/02-sql/SQL/07_importar_FACT_SALES.sql",
+      "source_git_blob_sha": "c8e6efba5f291684591fd1311dd4ce391398d44f",
+      "published_git_blob_sha": "c8e6efba5f291684591fd1311dd4ce391398d44f",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/08_verificar_cinco_tablas.sql",
+      "path": "stages/02-sql/SQL/08_verificar_cinco_tablas.sql",
+      "source_git_blob_sha": "cb9df0bb02e1dba7eaa760f57f8af0a7e5d85376",
+      "published_git_blob_sha": "cb9df0bb02e1dba7eaa760f57f8af0a7e5d85376",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/SQL/09_consultas_ventas.sql",
+      "path": "stages/02-sql/SQL/09_consultas_ventas.sql",
+      "source_git_blob_sha": "ca8a8d8edc3a9cd041649bc61eeaa609ae288ac9",
+      "published_git_blob_sha": "ca8a8d8edc3a9cd041649bc61eeaa609ae288ac9",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/CSV/DIM_CALENDAR.csv",
+      "path": "data/sql/DIM_CALENDAR.csv",
+      "source_git_blob_sha": "9833a395640851cdb4f1fad40a18218edb0c8585",
+      "published_git_blob_sha": "9833a395640851cdb4f1fad40a18218edb0c8585",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/CSV/DIM_CATEGORY.csv",
+      "path": "data/sql/DIM_CATEGORY.csv",
+      "source_git_blob_sha": "3d1ced6dc7236a6a41c2cacd005d7466fb79ef67",
+      "published_git_blob_sha": "3d1ced6dc7236a6a41c2cacd005d7466fb79ef67",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/CSV/DIM_PRODUCT.csv",
+      "path": "data/sql/DIM_PRODUCT.csv",
+      "source_git_blob_sha": "e5507d4b51f3421f1252a20cd188f7946c383363",
+      "published_git_blob_sha": "e5507d4b51f3421f1252a20cd188f7946c383363",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/CSV/DIM_SEGMENT.csv",
+      "path": "data/sql/DIM_SEGMENT.csv",
+      "source_git_blob_sha": "2e114e088444225d3a5e337893dedbec1b694c73",
+      "published_git_blob_sha": "2e114e088444225d3a5e337893dedbec1b694c73",
+      "compression": null
+    },
+    {
+      "source_path": "ea2/CSV/FACT_SALES.csv",
+      "path": "data/sql/FACT_SALES.csv.gz",
+      "source_git_blob_sha": "1428d5b9aca78eba9d9c09dc49e050b310dbed21",
+      "published_git_blob_sha": "8c156a621f754fd872e0c21938f66e8cb8ac3b94",
+      "compression": "gzip; decompresses to original bytes"
+    },
+    {
+      "source_path": "ea4/DIM_CALENDAR.xlsx",
+      "path": "data/python/DIM_CALENDAR.xlsx",
+      "source_git_blob_sha": "8704656b7bc44a511d8ef2a2c30ef1b77c4862b1",
+      "published_git_blob_sha": "8704656b7bc44a511d8ef2a2c30ef1b77c4862b1",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/DIM_CATEGORY.csv",
+      "path": "data/python/DIM_CATEGORY.csv",
+      "source_git_blob_sha": "83404020f0a7b69149a49e9a71c1adfeea9664f7",
+      "published_git_blob_sha": "83404020f0a7b69149a49e9a71c1adfeea9664f7",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/DIM_PRODUCT.xlsx",
+      "path": "data/python/DIM_PRODUCT.xlsx",
+      "source_git_blob_sha": "48c42204e6aa7389b9d58d3520868416c6f10379",
+      "published_git_blob_sha": "48c42204e6aa7389b9d58d3520868416c6f10379",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/DIM_SEGMENT.xlsx",
+      "path": "data/python/DIM_SEGMENT.xlsx",
+      "source_git_blob_sha": "016e3d43665ede0567f191e288176181f8baf21d",
+      "published_git_blob_sha": "016e3d43665ede0567f191e288176181f8baf21d",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/FACT_SALES.csv",
+      "path": "data/python/FACT_SALES.csv.gz",
+      "source_git_blob_sha": "57a613e6195611d3605f14d8ced68f7eda61cd19",
+      "published_git_blob_sha": "ff98d9dd54719e321c06c3c27a4543d186ca906a",
+      "compression": "gzip; decompresses to original bytes"
+    },
+    {
+      "source_path": "ea3/Proyecto_EA3.ipynb",
+      "path": "stages/03-pandas/Proyecto_EA3.ipynb",
+      "source_git_blob_sha": "11ab755549b3401839a08fd14620a1b3b770241f",
+      "published_git_blob_sha": "11ab755549b3401839a08fd14620a1b3b770241f",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/Proyecto_EA4.ipynb",
+      "path": "stages/04-visualization/Proyecto_EA4.ipynb",
+      "source_git_blob_sha": "2e58f380c44a7dcb47a52eff01876099b7eb28a6",
+      "published_git_blob_sha": "2e58f380c44a7dcb47a52eff01876099b7eb28a6",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/01_histograma_ventas.png",
+      "path": "reports/reference/01_histograma_ventas.png",
+      "source_git_blob_sha": "2dd31b678bdde6b6c7b5663af7b028cf18638f2a",
+      "published_git_blob_sha": "2dd31b678bdde6b6c7b5663af7b028cf18638f2a",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/02_boxplot_segmentos.png",
+      "path": "reports/reference/02_boxplot_segmentos.png",
+      "source_git_blob_sha": "d0341c8a3b928b6961b127e4417ef0d4186f61bd",
+      "published_git_blob_sha": "d0341c8a3b928b6961b127e4417ef0d4186f61bd",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/03_tendencia_semanal.png",
+      "path": "reports/reference/03_tendencia_semanal.png",
+      "source_git_blob_sha": "7a65794aa4db271e5c0b7b14f1bf8267d54b6465",
+      "published_git_blob_sha": "7a65794aa4db271e5c0b7b14f1bf8267d54b6465",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/04_marcas_tiempo.png",
+      "path": "reports/reference/04_marcas_tiempo.png",
+      "source_git_blob_sha": "334d4797eaad001fbe9995674df1bb833ff37fc1",
+      "published_git_blob_sha": "334d4797eaad001fbe9995674df1bb833ff37fc1",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/05_scatter_unidades_valor.png",
+      "path": "reports/reference/05_scatter_unidades_valor.png",
+      "source_git_blob_sha": "4a406be555e49fa154ac3ab92453c3fc6581f0ec",
+      "published_git_blob_sha": "4a406be555e49fa154ac3ab92453c3fc6581f0ec",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/06_areas_segmentos.png",
+      "path": "reports/reference/06_areas_segmentos.png",
+      "source_git_blob_sha": "2c7b7472c35a63d825f65329c951314591a43904",
+      "published_git_blob_sha": "2c7b7472c35a63d825f65329c951314591a43904",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/07_outliers_marcas.png",
+      "path": "reports/reference/07_outliers_marcas.png",
+      "source_git_blob_sha": "42b06a973ee7a65c30153782f98bc1ef0f3e96b7",
+      "published_git_blob_sha": "42b06a973ee7a65c30153782f98bc1ef0f3e96b7",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/08_participacion_marcas.png",
+      "path": "reports/reference/08_participacion_marcas.png",
+      "source_git_blob_sha": "1bc2b6e38f37b94ce4b13f7d6120d3fc60d1b5a8",
+      "published_git_blob_sha": "1bc2b6e38f37b94ce4b13f7d6120d3fc60d1b5a8",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/09_comparacion_periodos.png",
+      "path": "reports/reference/09_comparacion_periodos.png",
+      "source_git_blob_sha": "35bfc30f139174b33623e2f52e6466fd5ce07cc8",
+      "published_git_blob_sha": "35bfc30f139174b33623e2f52e6466fd5ce07cc8",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/Insights_Proyecto_EA4.txt",
+      "path": "reports/reference/Insights_Proyecto_EA4.txt",
+      "source_git_blob_sha": "a7725b20b62259811d6528325a55a4c4eed1a1ec",
+      "published_git_blob_sha": "a7725b20b62259811d6528325a55a4c4eed1a1ec",
+      "compression": null
+    },
+    {
+      "source_path": "ea4/comparacion_segmentos_2022_2023.csv",
+      "path": "reports/reference/comparacion_segmentos_2022_2023.csv",
+      "source_git_blob_sha": "e25ef6b9c7905d5e83de60dfb6ae9bef81a677f3",
+      "published_git_blob_sha": "e25ef6b9c7905d5e83de60dfb6ae9bef81a677f3",
+      "compression": null
+    }
+  ],
+  "deduplicated_python_inputs": [
+    {
+      "source_path": "ea3/DIM_CATEGORY.csv",
+      "identical_to": "ea4/DIM_CATEGORY.csv",
+      "git_blob_sha": "83404020f0a7b69149a49e9a71c1adfeea9664f7"
+    },
+    {
+      "source_path": "ea3/DIM_PRODUCT.xlsx",
+      "identical_to": "ea4/DIM_PRODUCT.xlsx",
+      "git_blob_sha": "48c42204e6aa7389b9d58d3520868416c6f10379"
+    },
+    {
+      "source_path": "ea3/DIM_SEGMENT.xlsx",
+      "identical_to": "ea4/DIM_SEGMENT.xlsx",
+      "git_blob_sha": "016e3d43665ede0567f191e288176181f8baf21d"
+    },
+    {
+      "source_path": "ea3/DIM_CALENDAR.xlsx",
+      "identical_to": "ea4/DIM_CALENDAR.xlsx",
+      "git_blob_sha": "8704656b7bc44a511d8ef2a2c30ef1b77c4862b1"
+    },
+    {
+      "source_path": "ea3/FACT_SALES.csv",
+      "identical_to": "ea4/FACT_SALES.csv",
+      "git_blob_sha": "57a613e6195611d3605f14d8ced68f7eda61cd19"
+    }
+  ],
+  "adaptation": "notebooks/retail_sales_eda.ipynb: original EA4 setup cell paths replaced, saved outputs cleared; later analytical cells unchanged"
+}

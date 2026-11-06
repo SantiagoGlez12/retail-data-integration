@@ -1,0 +1,21 @@
+-- Paso 8. Comprobar que se importaron las cinco tablas.
+USE Practica_Ventas;
+GO
+
+SELECT 'DIM_CATEGORY' AS Tabla, COUNT(*) AS Registros FROM dbo.DIM_CATEGORY
+UNION ALL SELECT 'DIM_PRODUCT', COUNT(*) FROM dbo.DIM_PRODUCT
+UNION ALL SELECT 'DIM_SEGMENT', COUNT(*) FROM dbo.DIM_SEGMENT
+UNION ALL SELECT 'DIM_CALENDAR', COUNT(*) FROM dbo.DIM_CALENDAR
+UNION ALL SELECT 'FACT_SALES', COUNT(*) FROM dbo.FACT_SALES;
+GO
+
+-- Revisar un ejemplo de las ventas.
+SELECT TOP (10) *
+FROM dbo.FACT_SALES;
+GO
+
+-- Ver qué regiones aparecen en el archivo.
+SELECT DISTINCT REGION
+FROM dbo.FACT_SALES
+ORDER BY REGION;
+GO

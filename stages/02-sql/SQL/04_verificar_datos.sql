@@ -1,0 +1,17 @@
+-- Paso 4. Verificar que los datos se hayan importado.
+USE Practica_Ventas;
+GO
+
+-- Cantidad de registros por tabla.
+SELECT 'DIM_CATEGORY' AS Tabla, COUNT(*) AS Registros FROM dbo.DIM_CATEGORY
+UNION ALL SELECT 'DIM_PRODUCT', COUNT(*) FROM dbo.DIM_PRODUCT
+UNION ALL SELECT 'DIM_SEGMENT', COUNT(*) FROM dbo.DIM_SEGMENT
+UNION ALL SELECT 'DIM_CALENDAR', COUNT(*) FROM dbo.DIM_CALENDAR;
+GO
+
+-- Consultar ejemplos de datos.
+SELECT TOP (10) * FROM dbo.DIM_CATEGORY;
+SELECT TOP (10) * FROM dbo.DIM_PRODUCT;
+SELECT TOP (10) * FROM dbo.DIM_SEGMENT;
+SELECT TOP (10) * FROM dbo.DIM_CALENDAR;
+GO

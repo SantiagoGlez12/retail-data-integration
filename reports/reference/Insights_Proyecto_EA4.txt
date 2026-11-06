@@ -1,0 +1,15 @@
+PROYECTO EA4 - HALLAZGOS PRINCIPALES
+Fuente: FACT_SALES + DIM_PRODUCT + DIM_CATEGORY + DIM_SEGMENT + DIM_CALENDAR
+1. Registros consolidados: 122002.
+2. Periodo con datos: 2022-01-09 a 2023-07-17.
+3. El valor mediano por registro nacional es 52.59.
+4. El segmento con mayor valor nacional es BLEACH.
+5. El área con mayor valor de ventas es TOTAL AUTOS AREA 2.
+6. La correlación entre unidades y valor de ventas es 0.914.
+7. La marca con mayor participación es CLORALEX (48.8%).
+8. Comparando 28 semanas equivalentes, el segmento con mayor variación es PRETREAT (23.6%).
+9. En ese mismo periodo, el segmento con menor variación es SANITIZER (-30.0%).
+10. Solo hay una categoría principal. Comparar segmentos, marcas y áreas es más informativo.
+IMPORTANTE: el total nacional y las seis áreas no se suman entre sí.
+IMPORTANTE: 2023 es parcial; se deben comparar periodos equivalentes.
+IMPORTANTE: no se declara moneda para TOTAL_VALUE_SALES en el dataset.
